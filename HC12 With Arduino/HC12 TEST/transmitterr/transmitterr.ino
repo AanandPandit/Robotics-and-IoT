@@ -10,7 +10,7 @@ void setup() {
 }
 
 void loop() {
-  HC12.println("AHello from Arduino 1");
-  Serial.println("Sent: A Hello from Arduino 1");
+  HC12.println("Hello from Arduino 1");
+  Serial.println("Sent: Hello from Arduino 1");
   delay(2000);
 }
